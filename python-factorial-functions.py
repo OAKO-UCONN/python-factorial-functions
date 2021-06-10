@@ -13,8 +13,8 @@ def fact(n):
     return n*fact(n-1)
 
 t1 = tm.time()
-print(factorial(50))
+print(factorial(200))
 t2 = tm.time()
-print(fact(50))
+print(fact(200))
 t3 = tm.time()
 print(t2-t1,t3-t2)
